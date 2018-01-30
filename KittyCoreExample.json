@@ -46,8 +46,8 @@
   ],
   "bytecode": "0x6060604052341561000f57600080fd5b6101d38061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806322e670b4146100515780636352211e146100ab575b600080fd5b341561005c57600080fd5b610091600480803590602001909190803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061010e565b604051808215151515815260200191505060405180910390f35b34156100b657600080fd5b6100cc600480803590602001909190505061016b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60008160008085815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001905092915050565b600080600083815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690509190505600a165627a7a72305820b41655c6bcaaa81dffe8c67d4e96b7b1d98707bb7d05985187a9971fb35b65a30029",
   "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806322e670b4146100515780636352211e146100ab575b600080fd5b341561005c57600080fd5b610091600480803590602001909190803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061010e565b604051808215151515815260200191505060405180910390f35b34156100b657600080fd5b6100cc600480803590602001909190505061016b565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60008160008085815260200190815260200160002060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001905092915050565b600080600083815260200190815260200160002060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1690509190505600a165627a7a72305820b41655c6bcaaa81dffe8c67d4e96b7b1d98707bb7d05985187a9971fb35b65a30029",
-  "sourceMap": "25:333:22:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "25:333:22:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;100:142;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;246:110;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;100:142;170:12;214:6;190:11;:21;202:8;190:21;;;;;;;;;;;;:30;;;;;;;;;;;;;;;;;;233:4;226:11;;100:142;;;;:::o;246:110::-;302:13;330:11;:21;342:8;330:21;;;;;;;;;;;;;;;;;;;;;323:28;;246:110;;;:::o",
+  "sourceMap": "25:333:30:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:333:30:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;100:142;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;246:110;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;100:142;170:12;214:6;190:11;:21;202:8;190:21;;;;;;;;;;;;:30;;;;;;;;;;;;;;;;;;233:4;226:11;;100:142;;;;:::o;246:110::-;302:13;330:11;:21;342:8;330:21;;;;;;;;;;;;;;;;;;;;;323:28;;246:110;;;:::o",
   "source": "pragma solidity ^0.4.8;\n\ncontract KittyCoreExample {\n  mapping (uint256 => address) kittyOwners;\n\n  function setOwnerOf(uint256 _kittyId, address _owner) public returns (bool success) {\n    kittyOwners[_kittyId] = _owner;\n    return true;\n  }\n\n  function ownerOf(uint256 _kittyId) view public returns (address owner) {\n    return kittyOwners[_kittyId];\n  }\n}\n",
   "sourcePath": "/home/ubuntu/kitty-hats-truffle/contracts/KittyCoreExample.sol",
   "ast": {
@@ -55,7 +55,7 @@
       "absolutePath": "/home/ubuntu/kitty-hats-truffle/contracts/KittyCoreExample.sol",
       "exportedSymbols": {
         "KittyCoreExample": [
-          168
+          216
         ]
       }
     },
@@ -69,9 +69,9 @@
             ".8"
           ]
         },
-        "id": 133,
+        "id": 181,
         "name": "PragmaDirective",
-        "src": "0:23:22"
+        "src": "0:23:30"
       },
       {
         "attributes": {
@@ -85,17 +85,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            168
+            216
           ],
           "name": "KittyCoreExample",
-          "scope": 169
+          "scope": 217
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "kittyOwners",
-              "scope": 168,
+              "scope": 216,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(uint256 => address)",
@@ -113,28 +113,28 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 134,
+                    "id": 182,
                     "name": "ElementaryTypeName",
-                    "src": "64:7:22"
+                    "src": "64:7:30"
                   },
                   {
                     "attributes": {
                       "name": "address",
                       "type": "address"
                     },
-                    "id": 135,
+                    "id": 183,
                     "name": "ElementaryTypeName",
-                    "src": "75:7:22"
+                    "src": "75:7:30"
                   }
                 ],
-                "id": 136,
+                "id": 184,
                 "name": "Mapping",
-                "src": "55:28:22"
+                "src": "55:28:30"
               }
             ],
-            "id": 137,
+            "id": 185,
             "name": "VariableDeclaration",
-            "src": "55:40:22"
+            "src": "55:40:30"
           },
           {
             "attributes": {
@@ -146,7 +146,7 @@
               ],
               "name": "setOwnerOf",
               "payable": false,
-              "scope": 168,
+              "scope": 216,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -158,7 +158,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_kittyId",
-                      "scope": 155,
+                      "scope": 203,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -171,20 +171,20 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 138,
+                        "id": 186,
                         "name": "ElementaryTypeName",
-                        "src": "120:7:22"
+                        "src": "120:7:30"
                       }
                     ],
-                    "id": 139,
+                    "id": 187,
                     "name": "VariableDeclaration",
-                    "src": "120:16:22"
+                    "src": "120:16:30"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_owner",
-                      "scope": 155,
+                      "scope": 203,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -197,19 +197,19 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 140,
+                        "id": 188,
                         "name": "ElementaryTypeName",
-                        "src": "138:7:22"
+                        "src": "138:7:30"
                       }
                     ],
-                    "id": 141,
+                    "id": 189,
                     "name": "VariableDeclaration",
-                    "src": "138:14:22"
+                    "src": "138:14:30"
                   }
                 ],
-                "id": 142,
+                "id": 190,
                 "name": "ParameterList",
-                "src": "119:34:22"
+                "src": "119:34:30"
               },
               {
                 "children": [
@@ -217,7 +217,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "success",
-                      "scope": 155,
+                      "scope": 203,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -230,19 +230,19 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 143,
+                        "id": 191,
                         "name": "ElementaryTypeName",
-                        "src": "170:4:22"
+                        "src": "170:4:30"
                       }
                     ],
-                    "id": 144,
+                    "id": 192,
                     "name": "VariableDeclaration",
-                    "src": "170:12:22"
+                    "src": "170:12:30"
                   }
                 ],
-                "id": 145,
+                "id": 193,
                 "name": "ParameterList",
-                "src": "169:14:22"
+                "src": "169:14:30"
               },
               {
                 "children": [
@@ -275,13 +275,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 137,
+                                  "referencedDeclaration": 185,
                                   "type": "mapping(uint256 => address)",
                                   "value": "kittyOwners"
                                 },
-                                "id": 146,
+                                "id": 194,
                                 "name": "Identifier",
-                                "src": "190:11:22"
+                                "src": "190:11:30"
                               },
                               {
                                 "attributes": {
@@ -289,18 +289,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 139,
+                                  "referencedDeclaration": 187,
                                   "type": "uint256",
                                   "value": "_kittyId"
                                 },
-                                "id": 147,
+                                "id": 195,
                                 "name": "Identifier",
-                                "src": "202:8:22"
+                                "src": "202:8:30"
                               }
                             ],
-                            "id": 148,
+                            "id": 196,
                             "name": "IndexAccess",
-                            "src": "190:21:22"
+                            "src": "190:21:30"
                           },
                           {
                             "attributes": {
@@ -308,27 +308,27 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 141,
+                              "referencedDeclaration": 189,
                               "type": "address",
                               "value": "_owner"
                             },
-                            "id": 149,
+                            "id": 197,
                             "name": "Identifier",
-                            "src": "214:6:22"
+                            "src": "214:6:30"
                           }
                         ],
-                        "id": 150,
+                        "id": 198,
                         "name": "Assignment",
-                        "src": "190:30:22"
+                        "src": "190:30:30"
                       }
                     ],
-                    "id": 151,
+                    "id": 199,
                     "name": "ExpressionStatement",
-                    "src": "190:30:22"
+                    "src": "190:30:30"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 145
+                      "functionReturnParameters": 193
                     },
                     "children": [
                       {
@@ -344,24 +344,24 @@
                           "type": "bool",
                           "value": "true"
                         },
-                        "id": 152,
+                        "id": 200,
                         "name": "Literal",
-                        "src": "233:4:22"
+                        "src": "233:4:30"
                       }
                     ],
-                    "id": 153,
+                    "id": 201,
                     "name": "Return",
-                    "src": "226:11:22"
+                    "src": "226:11:30"
                   }
                 ],
-                "id": 154,
+                "id": 202,
                 "name": "Block",
-                "src": "184:58:22"
+                "src": "184:58:30"
               }
             ],
-            "id": 155,
+            "id": 203,
             "name": "FunctionDefinition",
-            "src": "100:142:22"
+            "src": "100:142:30"
           },
           {
             "attributes": {
@@ -373,7 +373,7 @@
               ],
               "name": "ownerOf",
               "payable": false,
-              "scope": 168,
+              "scope": 216,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -385,7 +385,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_kittyId",
-                      "scope": 167,
+                      "scope": 215,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -398,19 +398,19 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 156,
+                        "id": 204,
                         "name": "ElementaryTypeName",
-                        "src": "263:7:22"
+                        "src": "263:7:30"
                       }
                     ],
-                    "id": 157,
+                    "id": 205,
                     "name": "VariableDeclaration",
-                    "src": "263:16:22"
+                    "src": "263:16:30"
                   }
                 ],
-                "id": 158,
+                "id": 206,
                 "name": "ParameterList",
-                "src": "262:18:22"
+                "src": "262:18:30"
               },
               {
                 "children": [
@@ -418,7 +418,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "owner",
-                      "scope": 167,
+                      "scope": 215,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -431,25 +431,25 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 159,
+                        "id": 207,
                         "name": "ElementaryTypeName",
-                        "src": "302:7:22"
+                        "src": "302:7:30"
                       }
                     ],
-                    "id": 160,
+                    "id": 208,
                     "name": "VariableDeclaration",
-                    "src": "302:13:22"
+                    "src": "302:13:30"
                   }
                 ],
-                "id": 161,
+                "id": 209,
                 "name": "ParameterList",
-                "src": "301:15:22"
+                "src": "301:15:30"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 161
+                      "functionReturnParameters": 209
                     },
                     "children": [
                       {
@@ -468,13 +468,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 137,
+                              "referencedDeclaration": 185,
                               "type": "mapping(uint256 => address)",
                               "value": "kittyOwners"
                             },
-                            "id": 162,
+                            "id": 210,
                             "name": "Identifier",
-                            "src": "330:11:22"
+                            "src": "330:11:30"
                           },
                           {
                             "attributes": {
@@ -482,43 +482,43 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 157,
+                              "referencedDeclaration": 205,
                               "type": "uint256",
                               "value": "_kittyId"
                             },
-                            "id": 163,
+                            "id": 211,
                             "name": "Identifier",
-                            "src": "342:8:22"
+                            "src": "342:8:30"
                           }
                         ],
-                        "id": 164,
+                        "id": 212,
                         "name": "IndexAccess",
-                        "src": "330:21:22"
+                        "src": "330:21:30"
                       }
                     ],
-                    "id": 165,
+                    "id": 213,
                     "name": "Return",
-                    "src": "323:28:22"
+                    "src": "323:28:30"
                   }
                 ],
-                "id": 166,
+                "id": 214,
                 "name": "Block",
-                "src": "317:39:22"
+                "src": "317:39:30"
               }
             ],
-            "id": 167,
+            "id": 215,
             "name": "FunctionDefinition",
-            "src": "246:110:22"
+            "src": "246:110:30"
           }
         ],
-        "id": 168,
+        "id": 216,
         "name": "ContractDefinition",
-        "src": "25:333:22"
+        "src": "25:333:30"
       }
     ],
-    "id": 169,
+    "id": 217,
     "name": "SourceUnit",
-    "src": "0:359:22"
+    "src": "0:359:30"
   },
   "compiler": {
     "name": "solc",
@@ -537,5 +537,5 @@
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-01-11T21:59:37.347Z"
+  "updatedAt": "2018-01-29T10:12:26.377Z"
 }
