@@ -1,0 +1,38 @@
+{
+    "costumes": {
+        "displayName": "Costumes",
+        "order": 4
+    },
+    "hats": {
+        "displayName": "Hats",
+        "order": 5
+    },
+    "shoes": {
+        "displayName": "Shoes",
+        "order": 7
+    },
+    "accessories": {
+        "displayName": "Accessories",
+        "order": 6
+    },
+    "glasses": {
+        "displayName": "Glasses",
+        "order": 8
+    },
+    "special": {
+        "displayName": "special",
+        "order": 9
+    },
+    "valentines": {
+        "displayName": "Valentines",
+        "order": 3
+    },
+    "dada": {
+        "displayName": "dada.nyc",
+        "order": 2
+    },
+    "memes": {
+        "displayName": "Memes",
+        "order": 1
+    }
+}
