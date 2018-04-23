@@ -179,6 +179,13 @@
 					"assetUrl": "flower_red"
 				},
 				{
+					"name": "Bubbles For Sadie (#K4C)",
+					"contract": "ItemBubblesForSadie",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"artist": "Kittyhawk",
+					"assetUrl": "bubbles4sadie"
+				},
+				{
 					"name": "Dead Bird",
 					"contract": "ItemDeadBird",
 					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
