@@ -1,0 +1,611 @@
+{
+	"version": "1.0.0",
+	"networkId": "1",
+	"marketplaceAddress": "0xfc9ec868f4c8c586d1bb7586870908cca53d5f38",
+	"kittyCoreAddress": "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
+	"categories": {
+		"memes": {
+			"displayName": "Memes",
+			"items": [
+				{
+					"name": "Surprised Patrick Party Hat",
+					"contract": "ItemMemePatrick",
+					"tokenAddress": "0xe5fa56d5e302aa1328c7346831abdf85be1f77ff",
+					"artist": "ADHDKitties",
+					"assetUrl": "patrickstarfishhat"
+				},
+				{
+					"name": "Tie'd Pod",
+					"contract": "ItemMemeTidePod",
+					"tokenAddress": "0x9cbd70665cfc178dd5598bd8b9e3cccebe34f948",
+					"artist": "ADHDKitties",
+					"assetUrl": "tidepodbowtie"
+				},
+				{
+					"name": "Cucumbers Behind Cats",
+					"contract": "ItemMemeCucumber",
+					"tokenAddress": "0x5c7c99a3ce83c3400ea21608651e7941a7ff1b92",
+					"artist": "BxKat",
+					"assetUrl": "cucumber"
+				},
+				{
+					"name": "Chemistry Cat",
+					"contract": "ItemMemeScience",
+					"tokenAddress": "0xcc45a3f00a5a672b3f2f3efcf9a8325db9448bc0",
+					"artist": "BxKat",
+					"assetUrl": "chemistrycat"
+				},
+				{
+					"name": "Breading",
+					"contract": "ItemMemeBread",
+					"tokenAddress": "0x2881d326f657c31fc538caa72c8c8ea5dc9da9a9",
+					"artist": "BxKat",
+					"assetUrl": "breading"
+				},
+				{
+					"name": "Keyboard Cat",
+					"contract": "ItemMemeKeyboard",
+					"tokenAddress": "0x98f1ada35615e768aa30e217f62d52fa723bcda6",
+					"artist": "BxKat",
+					"assetUrl": "keyboard"
+				},
+				{
+					"name": "Maru's Tiny Box",
+					"contract": "ItemMemeMaruBox",
+					"tokenAddress": "0xae49153ec8d6aed68d0d165a946684d9e27fd9b1",
+					"artist": "BxKat",
+					"assetUrl": "tinybox"
+				},
+				{
+					"name": "More Treats?! Strawberry Hat",
+					"contract": "ItemMemeStrawberryHat",
+					"tokenAddress": "0x8d0d00744df3c57d434f82b15cb1a643ba46cd67",
+					"artist": "BxKat",
+					"assetUrl": "strawberryhat"
+				},
+				{
+					"name": "More Treats?! Pumpkin Hat",
+					"contract": "ItemMemePumpkinHat",
+					"tokenAddress": "0xde4e1963fbd541bf51e6eeb8a95326623aca17a8",
+					"artist": "BxKat",
+					"assetUrl": "pumpkinhat"
+				},
+				{
+					"name": "Deal With It Shades",
+					"contract": "ItemMemeDealWithItShades",
+					"tokenAddress": "0x7a72acc9b57c7c58189dd3370edbfb03621bd9a1",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "dealwithit"
+				}
+			],
+			"order": 1
+		},
+		"accessories": {
+			"displayName": "Accessories",
+			"items": [
+				{
+					"name": "Ball of Yarn",
+					"contract": "ItemYarn",
+					"tokenAddress": "0xb9e9ae95ffd4223f14b87e565ad0f00838a566f2",
+					"artist": "BxKat",
+					"assetUrl": "yarnball"
+				},
+				{
+					"name": "Ethereum Collar",
+					"contract": "ItemEthereumCollar",
+					"tokenAddress": "0x280a511ebad860e945e1829e2c8435748b05d147",
+					"charity": "ASPCA and ETH Foundation",
+					"assetUrl": "collar"
+				},
+				{
+					"name": "iWatch",
+					"contract": "ItemiWatch",
+					"tokenAddress": "0x54616a975dec9256f8fe26a99b2fcd6affbf6eaf",
+					"assetUrl": "iwatch"
+				},
+				{
+					"name": "Lei",
+					"contract": "ItemLei",
+					"tokenAddress": "0x5e064285ec172449a85643c2000a4f1b390e16c2",
+					"assetUrl": "lei"
+				},
+				{
+					"name": "Mom Tattoo",
+					"contract": "ItemMomTattoo",
+					"tokenAddress": "0x96e617630c15c3a4b4fde32f6eec434ae31b392f",
+					"assetUrl": "momtat"
+				},
+				{
+					"name": "Bowtie",
+					"contract": "ItemBowtie",
+					"tokenAddress": "0xf6eb0570fb3f4ccfb21aea5603b3163d22070cf2",
+					"artist": "Kittyhawk",
+					"assetUrl": "bowtie"
+				},
+				{
+					"name": "Ladybug Headband",
+					"contract": "ItemLadybug",
+					"tokenAddress": "0x04bc7647a545cc8eee31280b3e3eb3b2e8b2d978",
+					"artist": "Kittyhawk",
+					"assetUrl": "ladybug"
+				},
+				{
+					"name": "Viking Shield",
+					"contract": "ItemVikingShield",
+					"tokenAddress": "0x7b412a4dafbdea838e646af207999d5e05d9f077",
+					"artist": "Kittyhawk",
+					"assetUrl": "vikingshield"
+				},
+				{
+					"name": "Monocle",
+					"contract": "ItemMonocle",
+					"tokenAddress": "0xc08a7840a35bc9f11801479c81532b2ac72a7c82",
+					"artist": "Kittyhawk",
+					"assetUrl": "monocle"
+				},
+				{
+					"name": "Paw Me Pls",
+					"contract": "ItemPawMePls",
+					"tokenAddress": "0xba79987d39d004802a157c27436aadcc16469503",
+					"artist": "Kittyhawk",
+					"assetUrl": "sign_pawmepls"
+				},
+				{
+					"name": "Chocolate Pudding Headband",
+					"contract": "ItemChocoHeadband",
+					"tokenAddress": "0xf5353cb6ef1eeeeada2ff197d991492904fcfcad",
+					"artist": "Kittyhawk",
+					"assetUrl": "headband_choco"
+				},
+				{
+					"name": "3D glasses",
+					"contract": "Item3dGlasses",
+					"tokenAddress": "0xddef3b261fa9a5995691838ce97eac616b34fcad",
+					"artist": "Kittyhawk",
+					"assetUrl": "glasses_3d"
+				},
+				{
+					"name": "Time Machine",
+					"contract": "ItemTimeMachine",
+					"tokenAddress": "0x1f5a521d8fa643bf699b477b0c9edefd82864cab",
+					"artist": "Kittyhawk",
+					"assetUrl": "box_timemachine"
+				},
+				{
+					"name": "Red Flower",
+					"contract": "ItemFlowerRed",
+					"tokenAddress": "0xe66ce7ea9738165a42fb898fe081ed10e50396c5",
+					"artist": "Kittyhawk",
+					"assetUrl": "flower_red"
+				},
+				{
+					"name": "Bubbles For Sadie (#K4C)",
+					"contract": "ItemBubblesForSadie",
+					"tokenAddress": "0xb45287d3b10a60025d1973c995e015708e2fb23f",
+					"artist": "Kittyhawk",
+					"assetUrl": "bubbles4sadie"
+				},
+				{
+					"name": "Dead Bird",
+					"contract": "ItemDeadBird",
+					"tokenAddress": "0x4ef99102c1bcd63dc441a1887c65b419ee0effac",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "birdy"
+				},
+				{
+					"name": "Diamond Bracelet",
+					"contract": "ItemSpikedBracelet",
+					"tokenAddress": "0x8518f0eb44247c62d07a5ff0d97137a6285554c8",
+					"artist": "janbro",
+					"assetUrl": "diamond_bracelet"
+				}
+			],
+			"order": 6
+		},
+		"valentines": {
+			"displayName": "Valentines",
+			"items": [
+				{
+					"name": "Candy Hearts",
+					"contract": "ItemValentinesCandyHearts",
+					"tokenAddress": "0xe09a0238153a0c225e1157974990b8b9559cd2b6",
+					"artist": "BxKat",
+					"assetUrl": "candyhearts"
+				},
+				{
+					"name": "Surrounded by Love",
+					"contract": "ItemValentinesHeartsBackground",
+					"tokenAddress": "0x104c09b7696744ad6f7a68af0d6cec10238a94a4",
+					"artist": "BxKat",
+					"assetUrl": "heartsbg"
+				},
+				{
+					"name": "Hearts Headband",
+					"contract": "ItemValentinesHeartsHeadband",
+					"tokenAddress": "0x88a2213dc4340b1333afa386d4db7a3b7a425230",
+					"artist": "Kittyhawk",
+					"assetUrl": "headband_heart"
+				}
+			],
+			"order": 3
+		},
+		"shoes": {
+			"displayName": "Shoes",
+			"items": [
+				{
+					"name": "Chucks",
+					"contract": "ItemChucks",
+					"tokenAddress": "0xd822ca23fcdbf5569b3ce746a81f039b27240b35",
+					"assetUrl": "chucks"
+				},
+				{
+					"name": "Mittens",
+					"contract": "ItemMittens",
+					"tokenAddress": "0x944bf9dfee296df739a68b07e53c97df0396dbb3",
+					"assetUrl": "mittens"
+				},
+				{
+					"name": "Ballet Slippers",
+					"contract": "ItemBlackBalletSlippers",
+					"tokenAddress": "0xac740ff5f0ed950f63c86ee32ad87c0e54b50488",
+					"artist": "Kittyhawk",
+					"assetUrl": "balletslippers"
+				},
+				{
+					"name": "Yeezys",
+					"contract": "ItemYeezy",
+					"tokenAddress": "0x6615f387e7bc610c11066cb1e534ab0f07ed8424",
+					"assetUrl": "yeezy"
+				}
+			],
+			"order": 7
+		},
+		"hats": {
+			"displayName": "Hats",
+			"items": [
+				{
+					"name": "Flat Brim",
+					"contract": "ItemFlatBrim",
+					"tokenAddress": "0x64e5e8fe8210bca8ad0571b4711d77161ac459a3",
+					"assetUrl": "flatbrim"
+				},
+				{
+					"name": "Tiara",
+					"contract": "ItemTiara",
+					"tokenAddress": "0x2a7fa1308c075cf214e66c2caa67883da4fa508f",
+					"assetUrl": "tiara"
+				},
+				{
+					"name": "Tin foil",
+					"contract": "ItemTinFoil",
+					"tokenAddress": "0xf3126a961abc4cef0cefcb2510be431ce2782b7f",
+					"charity": "ASPCA and ETH Foundation",
+					"assetUrl": "tinfoil"
+				},
+				{
+					"name": "Top Hat",
+					"contract": "ItemTopHat",
+					"tokenAddress": "0xcd1b3ecffeacdcfc01054848225eb627bc9c590f",
+					"assetUrl": "tophat"
+				},
+				{
+					"name": "Trapper",
+					"contract": "ItemTrapper",
+					"tokenAddress": "0x8b3c87830bb23da1270803f92ff8ffa9d4a67338",
+					"charity": "Pussyhat Project",
+					"assetUrl": "trapper"
+				},
+				{
+					"name": "Viking Helmet",
+					"contract": "ItemVikingHat",
+					"tokenAddress": "0xb106e0cfd724fca820d342b5a4ac2526108a6a56",
+					"artist": "Kittyhawk",
+					"assetUrl": "vikinghelmet"
+				},
+				{
+					"name": "Birds of Prey Helmet",
+					"contract": "ItemHelmetBird",
+					"tokenAddress": "0x8f5155ddc1a859c22ba3d7a2f409175e69933cdc",
+					"artist": "Kittyhawk",
+					"assetUrl": "helmet_football_birdsofprey"
+				},
+				{
+					"name": "Patriotic Helmet",
+					"contract": "ItemHelmetPat",
+					"tokenAddress": "0x0dd3b0163c8974e1673601c06ab2a45d762aaff8",
+					"artist": "Kittyhawk",
+					"assetUrl": "helmet_football_patriotic"
+				},
+				{
+					"name": "Blue Top Hat",
+					"contract": "ItemTopHatBlue",
+					"tokenAddress": "0xf62215163b2dbbc0b8a57f7ce8238b4d7a3b8aea",
+					"artist": "Kittyhawk",
+					"assetUrl": "tophat_blue"
+				},
+				{
+					"name": "Blue Beret",
+					"contract": "ItemBeret",
+					"tokenAddress": "0x075dd07ff62488810d30d61c93dc4be94eb31be9",
+					"artist": "Kittyhawk",
+					"assetUrl": "beret_blue"
+				},
+				{
+					"name": "Shower Cap",
+					"contract": "ItemShowerCap",
+					"tokenAddress": "0xb7e485240fb515cb6d38ef06824b1fa1db05ff8b",
+					"artist": "LauraO",
+					"assetUrl": "shower_cap"
+				},
+				{
+					"name": "Cheesehead Hat",
+					"contract": "ItemCheeseheadHat",
+					"tokenAddress": "0x17185d3b4d1e2630366886f78cb11d6ec807df40",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "cheesehat"
+				},
+				{
+					"name": "Construction Hat",
+					"contract": "ItemHardHat",
+					"tokenAddress": "0x0cc0bb67b6b0c92c56328271cd6d767caa8494ab",
+					"artist": "ParanoidLunatic",
+					"assetUrl": "construction"
+				}
+			],
+			"order": 5
+		},
+		"glasses": {
+			"displayName": "Glasses",
+			"items": [
+				{
+					"name": "Nerd",
+					"contract": "ItemNerdGlasses",
+					"tokenAddress": "0x837e4831753e32437bac397cefc8da67f61a74e6",
+					"assetUrl": "nerd"
+				},
+				{
+					"name": "Shutter Shades",
+					"contract": "ItemShutterShades",
+					"tokenAddress": "0xda51c77380e3653189b65f3f3ffeec63d88f3ae8",
+					"assetUrl": "shutter"
+				},
+				{
+					"name": "Wayfarers",
+					"contract": "ItemWayfarers",
+					"tokenAddress": "0xb1df962bb6938deb7b27cdc01ea0b41395c5d426",
+					"assetUrl": "wayfarers"
+				}
+			],
+			"order": 8
+		},
+		"costumes": {
+			"displayName": "Costumes",
+			"items": [
+				{
+					"name": "Bellhop",
+					"contract": "ItemBellhop",
+					"tokenAddress": "0x21fcc28ff374bb2ff28672c7047304e0950e22a6",
+					"artist": "Kittyhawk",
+					"assetUrl": "bellhop"
+				},
+				{
+					"name": "Kittyhawk Costume",
+					"contract": "ItemKittyHawk",
+					"tokenAddress": "0x7f08f6489c177e6b7b754d65ec14d26cdeb5aeac",
+					"artist": "Kittyhawk",
+					"assetUrl": "kittyhawk_costume"
+				},
+				{
+					"name": "Ballerina Outfit",
+					"contract": "ItemBalletCostume",
+					"tokenAddress": "0x2a11b2990dca671df8f9e71754b94eb49b62a516",
+					"artist": "Kittyhawk",
+					"assetUrl": "ballerina_costume"
+				}
+			],
+			"order": 4
+		},
+		"special": {
+			"displayName": "special",
+			"items": [
+				{
+					"name": "411 Gold Medal Award",
+					"contract": "ItemJodiMedal",
+					"tokenAddress": "0xc722587e4bc7b6b7555514b2d6dd3326f3b3ec16",
+					"artist": "Kittyhawk",
+					"assetUrl": "gold_medal_411"
+				},
+				{
+					"name": "Kitties for a Cause Exclusive",
+					"contract": "ItemBellaBalloon",
+					"tokenAddress": "0x3fc20c022036dd0f854aa8ade6706859a35a3995",
+					"artist": "Kittyhawk",
+					"assetUrl": "k4c_balloon"
+				}
+			],
+			"order": 9
+		},
+		"dada": {
+			"displayName": "dada.nyc",
+			"items": [
+				{
+					"name": "The Scream",
+					"contract": "ItemDadaTheScream",
+					"tokenAddress": "0xc970e68462089faac863d01fec18f7c1a4878a27",
+					"artist": "BeatrizRamos@Dada",
+					"assetUrl": "dada-thescream",
+					"url": "https://dada.nyc/pa/78673?khf=on#78673"
+				},
+				{
+					"name": "Self Portrait, Dedicated to Dr. Eloesser",
+					"contract": "ItemDadaFrida",
+					"tokenAddress": "0xe3244b78ba9d11c6ce0ea2d1a5e94c2a18930e8f",
+					"artist": "BeatrizRamos@Dada",
+					"assetUrl": "dada-frida",
+					"url": "https://dada.nyc/pa/79079?khf=on#79079"
+				},
+				{
+					"name": "American Gothic",
+					"contract": "ItemDadaAmericanGothic",
+					"tokenAddress": "0xb8e8faf64d0328c3607e66b5d46660fdb935dae3",
+					"artist": "Betunski@Dada",
+					"assetUrl": "dada-americangothic",
+					"url": "https://dada.nyc/pa/79090?khf=on#79090"
+				},
+				{
+					"name": "The Creation of Adam",
+					"contract": "ItemDadaCreationOfAdam",
+					"tokenAddress": "0x24d677155983fefedba09e754dabba356cbb25d7",
+					"artist": "BorisSZimunich@Dada",
+					"assetUrl": "dada-creationadam",
+					"url": "https://dada.nyc/pa/78095?khf=on#78095"
+				},
+				{
+					"name": "The Temptation of St. Anthony",
+					"contract": "ItemDadaTemptation",
+					"tokenAddress": "0x022cf1ad0e4256a64dce8c095962e98cf09fa588",
+					"artist": "BorisToledo@Dada",
+					"assetUrl": "dada-temptation",
+					"url": "https://dada.nyc/pa/78484?khf=on#78484"
+				},
+				{
+					"name": "Lady with an Ermine",
+					"contract": "ItemDadaLadyWithErmine",
+					"tokenAddress": "0x9f0cdf83bf574cc7fe51ad628e320f2f51330427",
+					"artist": "BorisToledo@Dada",
+					"assetUrl": "dada-ladywithermine",
+					"url": "https://dada.nyc/pa/82624?khf=on#82624"
+				},
+				{
+					"name": "Mona Lisa",
+					"contract": "ItemDadaMonaLisa",
+					"tokenAddress": "0x28c1fd2567f12b5d7a97551619aa85a2a344b598",
+					"artist": "BorisToledo@Dada",
+					"assetUrl": "dada-monalisa",
+					"url": "https://dada.nyc/pa/78094?khf=on#78094"
+				},
+				{
+					"name": "Bedroom in Arles",
+					"contract": "ItemDadaBedroomArles",
+					"tokenAddress": "0x4e775cef6adf0e2ad1f4cbb07218f70bfa2bd8e9",
+					"artist": "BorisToledo@Dada",
+					"assetUrl": "dada-bedroomarles",
+					"url": "https://dada.nyc/pa/78716?khf=on#78716"
+				},
+				{
+					"name": "Girl with a Pearl Earring",
+					"contract": "ItemDadaPearlEarring",
+					"tokenAddress": "0x446a228541433c42c1df2381a1b5c0b08f1f61d3",
+					"artist": "BorisToledo@Dada",
+					"assetUrl": "dada-pearlearring",
+					"url": "https://dada.nyc/pa/79076?khf=on#79076"
+				},
+				{
+					"name": "The Birth of Venus",
+					"contract": "ItemDadaBirthVenus",
+					"tokenAddress": "0xe61185af22c67c30484a315eb2a06879c7dfb376",
+					"artist": "Cromomaniaco@Dada",
+					"assetUrl": "dada-birthvenus",
+					"url": "https://dada.nyc/pa/78265?khf=on#78265"
+				},
+				{
+					"name": "The Raft of the Medusa",
+					"contract": "ItemDadaRaftMedusa",
+					"tokenAddress": "0x5eb190083b940cb297531ab95ebf4707cbfbb3af",
+					"artist": "Cromomaniaco@Dada",
+					"assetUrl": "dada-raftmedusa",
+					"url": "https://dada.nyc/pa/78429?khf=on#78429"
+				},
+				{
+					"name": "Las Meninas",
+					"contract": "ItemDadaLasMeninas",
+					"tokenAddress": "0xd4b1173b33664cbfcc61262286ca50de6bf140f2",
+					"artist": "Cromomaniaco@Dada",
+					"assetUrl": "dada-lasmeninas",
+					"url": "https://dada.nyc/pa/78945?khf=on#78945"
+				},
+				{
+					"name": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+					"contract": "ItemDadaAnatomyLesson",
+					"tokenAddress": "0x194603a59bd660f8f98e412bfbb5ebf8acf0a18d",
+					"artist": "JavierErrecarte@Dada",
+					"assetUrl": "dada-anatomylesson",
+					"url": "https://dada.nyc/pa/79135?khf=on#79135"
+				},
+				{
+					"name": "Woman in Front of the Sun",
+					"contract": "ItemDadaWomanSun",
+					"tokenAddress": "0x195518075a8596e1c2f5a645b2391d08c030cf63",
+					"artist": "LorenaPinasco@Dada",
+					"assetUrl": "dada-womansun",
+					"url": "https://dada.nyc/pa/78729?khf=on#78729"
+				},
+				{
+					"name": "Portrait of Adele Bloch-Bauer I",
+					"contract": "ItemDadaPortraitAdele",
+					"tokenAddress": "0x39fc7602c6de77b0e9dfe2217b2174c1fe617161",
+					"artist": "MaFerGarzon@Dada",
+					"assetUrl": "dada-portraitadele",
+					"url": "https://dada.nyc/pa/79477?khf=on#79477"
+				},
+				{
+					"name": "Seated Dancer",
+					"contract": "ItemDadaSeatedDancer",
+					"tokenAddress": "0xbf3512424972f1e602515c775531b06a734eaf7a",
+					"artist": "Massel@Dada",
+					"assetUrl": "dada-seateddancer",
+					"url": "https://dada.nyc/pa/79083?khf=on#79083"
+				},
+				{
+					"name": "The Dance Class",
+					"contract": "ItemDadaDanceClass",
+					"tokenAddress": "0x262d945acc14a0c38971c16812b6d292c3c10657",
+					"artist": "Massel@Dada",
+					"assetUrl": "dada-danceclass",
+					"url": "https://dada.nyc/pa/78708?khf=on#78708"
+				},
+				{
+					"name": "Two Women at a Window",
+					"contract": "ItemDadaTwoWomen",
+					"tokenAddress": "0xe489a18c1dbc902881e0fcc71fc10e1c4b4264dd",
+					"artist": "Massel@Dada",
+					"assetUrl": "dada-twowomen",
+					"url": "https://dada.nyc/pa/82944?khf=on#82944"
+				},
+				{
+					"name": "At the Moulin Rouge",
+					"contract": "ItemDadaMoulinRouge",
+					"tokenAddress": "0xcaf91cac15d94454652813a8e0ffcc69dc6ec66c",
+					"artist": "RaulAvila@Dada",
+					"assetUrl": "dada-moulinrogue",
+					"url": "https://dada.nyc/pa/78674?khf=on#78674"
+				},
+				{
+					"name": "The Starry Night",
+					"contract": "ItemDadaStarryNight",
+					"tokenAddress": "0x6d71052ef96c45f4455bb96f2c511f03804c62f2",
+					"artist": "VanesaStati@Dada",
+					"assetUrl": "dada-starrynight",
+					"url": "https://dada.nyc/pa/78678?khf=on#78678"
+				},
+				{
+					"name": "Whistler's Mother",
+					"contract": "ItemDadaWhistlersMother",
+					"tokenAddress": "0xdb88804df82a9598070ea7fdf2d6cb8c59cc05d8",
+					"artist": "VanesaStati@Dada",
+					"assetUrl": "dada-whistlersmother",
+					"url": "https://dada.nyc/pa/78869?khf=on#78869"
+				},
+				{
+					"name": "Jupiter and Io",
+					"contract": "ItemDadaJupiterIo",
+					"tokenAddress": "0xba54d1d901328d5ba471e1c451bd87461e3b8e59",
+					"artist": "SerenaStelitano@Dada",
+					"assetUrl": "dada-jupiterlo",
+					"url": "https://dada.nyc/pa/79512?khf=on#79512"
+				}
+			],
+			"order": 2
+		}
+	}
+}

@@ -1,0 +1,120 @@
+{
+    "artist": {
+        "name": "Kittyhawk",
+        "address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+        "show": true
+    },
+    "listing": [
+        {
+            "image": "balletslippers",
+            "contract": "ItemBlackBalletSlippers",
+            "category": "shoes",
+            "displayName": "Ballet Slippers"
+        },{
+            "image": "bellhop",
+            "contract": "ItemBellhop",
+            "category": "costumes",
+            "displayName": "Bellhop"
+        },{
+            "image": "bowtie",
+            "contract": "ItemBowtie",
+            "category": "accessories",
+            "displayName": "Bowtie"
+        },{
+            "image": "ladybug",
+            "contract": "ItemLadybug",
+            "category": "accessories",
+            "displayName": "Ladybug Headband"
+        },{
+            "image": "vikinghelmet",
+            "contract": "ItemVikingHat",
+            "category": "hats",
+            "displayName": "Viking Helmet"
+        },{
+            "image": "vikingshield",
+            "contract": "ItemVikingShield",
+            "category": "accessories",
+            "displayName": "Viking Shield"
+        },{
+            "image": "monocle",
+            "contract": "ItemMonocle",
+            "category": "accessories",
+            "displayName": "Monocle"
+        },{
+            "image": "kittyhawk_costume",
+            "contract": "ItemKittyHawk",
+            "category": "costumes",
+            "displayName": "Kittyhawk Costume"
+        },{
+            "image": "ballerina_costume",
+            "contract": "ItemBalletCostume",
+            "category": "costumes",
+            "displayName": "Ballerina Outfit"
+        },{
+            "image": "helmet_football_birdsofprey",
+            "contract": "ItemHelmetBird",
+            "category": "hats",
+            "displayName": "Birds of Prey Helmet"
+        },{
+            "image": "helmet_football_patriotic",
+            "contract": "ItemHelmetPat",
+            "category": "hats",
+            "displayName": "Patriotic Helmet"
+        },{
+            "image": "sign_pawmepls",
+            "contract": "ItemPawMePls",
+            "category": "accessories",
+            "displayName": "Paw Me Pls"
+        },{
+            "image": "gold_medal_411",
+            "contract": "ItemJodiMedal",
+            "category": "special",
+            "displayName": "411 Gold Medal Award"
+        },{
+            "image": "headband_choco",
+            "contract": "ItemChocoHeadband",
+            "category": "accessories",
+            "displayName": "Chocolate Pudding Headband"
+        },{
+            "image": "glasses_3d",
+            "contract": "Item3dGlasses",
+            "category": "accessories",
+            "displayName": "3D glasses"
+        },{
+            "image": "headband_heart",
+            "contract": "ItemValentinesHeartsHeadband",
+            "category": "valentines",
+            "displayName": "Hearts Headband"
+        },{
+            "image": "tophat_blue",
+            "contract": "ItemTopHatBlue",
+            "category": "hats",
+            "displayName": "Blue Top Hat"
+        },{
+            "image": "box_timemachine",
+            "contract": "ItemTimeMachine",
+            "category": "accessories",
+            "displayName": "Time Machine"
+        },{
+            "image": "beret_blue",
+            "contract": "ItemBeret",
+            "category": "hats",
+            "displayName": "Blue Beret"
+        },{
+            "image": "flower_red",
+            "contract": "ItemFlowerRed",
+            "category": "accessories",
+            "displayName": "Red Flower"
+        },{
+            "image": "k4c_balloon",
+            "contract": "ItemBellaBalloon",
+            "category": "special",
+            "displayName": "Kitties for a Cause Exclusive"
+        },{
+            "image": "bubbles4sadie",
+            "contract": "ItemBubblesForSadie",
+            "category": "accessories",
+            "displayName": "Bubbles For Sadie (#K4C)"
+        }
+    ]
+}

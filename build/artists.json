@@ -1,0 +1,119 @@
+{
+	"version": "1.0.0",
+	"artists": {
+		"ADHDKitties": {
+			"name": "ADHDKitties",
+			"address": "0x4027B203A16158a39b80B2d3a353cA4870dCa63e",
+			"show": true
+		},
+		"BxKat": {
+			"name": "BxKat",
+			"address": "0xbccc57c75b5ad32c9f1655480a08d4fc0fd0f925",
+			"show": true
+		},
+		"KittyHats": {
+			"name": "KittyHats",
+			"address": "0x0",
+			"show": false
+		},
+		"Kittyhawk": {
+			"name": "Kittyhawk",
+			"address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+			"show": true
+		},
+		"LauraO": {
+			"name": "LauraO",
+			"address": "0x269B6f14D53Be3d47525cf356B35212fc0860450",
+			"url": "www.behance.net/LauraMODonnell",
+			"show": true
+		},
+		"ParanoidLunatic": {
+			"name": "ParanoidLunatic",
+			"address": "0x35e2268306aab43014da143f110431ec0140957a",
+			"show": true
+		},
+		"BeatrizRamos@Dada": {
+			"name": "Bea",
+			"address": "0x4Ae392c271f0935a7C1f75bE87d08A168536Ff84",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=BeatrizHelenaRamos#BeatrizHelenaRamos"
+		},
+		"Betunski@Dada": {
+			"name": "Betunski",
+			"address": "0x5C43Fb46d1656076117993b475A7E068821a3C02",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=Vetunn#Vetunn"
+		},
+		"BorisSZimunich@Dada": {
+			"name": "Boris S. Zimunich",
+			"address": "0x44bdcf63f6100163f62f6ac6d1c8414d5390d797",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=nODn6gtHXziMCjasCYFaQg#nODn6gtHXziMCjasCYFaQg"
+		},
+		"BorisToledo@Dada": {
+			"name": "Boris Toledo Doorm",
+			"address": "0x3998aA60a3ceAF563eBB94B97C374793B67e0BFd",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=creadoorm#creadoorm"
+		},
+		"Cromomaniaco@Dada": {
+			"name": "CROMOMANIACO",
+			"address": "0xAd4b040c647e66C21058163e3c87b1865511C3a9",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=SCpgNGpvkxk3orDddDAiig#SCpgNGpvkxk3orDddDAiig"
+		},
+		"JavierErrecarte@Dada": {
+			"name": "Javier Errecarte",
+			"address": "0xa992AFC09846A822c749d775735e7abE9383801a",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=javier#javier"
+		},
+		"LorenaPinasco@Dada": {
+			"name": "Pinasco Lorena",
+			"address": "0x62108DD328936F073b30422B027703b982111e17",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=2UXOUwy74ZnPUqjZ7ntA1A#2UXOUwy74ZnPUqjZ7ntA1A"
+		},
+		"MaFerGarzon@Dada": {
+			"name": "Ma Fer Garzón",
+			"address": "0xF797f04F72CA268E6c299ecCf13D3eF466231f09",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=p6uVyRXKDNoJOJGm0j7_KQ#p6uVyRXKDNoJOJGm0j7_KQ"
+		},
+		"Massel@Dada": {
+			"name": "Massel",
+			"address": "0x0B78cA1cd0381e45Ff73A03e690ACBe4889ccF3F",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=b38O-dof1tSf5-5A-uElnw#b38O-dof1tSf5-5A-uElnw"
+		},
+		"RaulAvila@Dada": {
+			"name": "raulavila",
+			"address": "0xd84420a5D3a36e718A3F80331Db4BF0490399e92",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=H1EWC2It39lz_M0SIfqwxA#H1EWC2It39lz_M0SIfqwxA"
+		},
+		"VanesaStati@Dada": {
+			"name": "vVs",
+			"address": "0xF65364f73687045970135889bF945F3589C9Da93",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=hFKgOCCJ8sCdV-azttHWMQ#hFKgOCCJ8sCdV-azttHWMQ"
+		},
+		"SerenaStelitano@Dada": {
+			"name": "Serste",
+			"address": "0x20dA165deB81dBB042fE4A9d4808399eF2477c5d ",
+			"show": true,
+			"url": "https://dada.nyc/portraits?pl=serenastelitanoillustrator#serenastelitanoillustrator"
+		},
+		"janbro": {
+			"name": "janbro",
+			"address": "0xA2bA02db5c34B11C1Be0A25417851C9DfC5d4467",
+			"url": "https://stock.adobe.com/contributor/207311271/Alejandro%20McDonald",
+			"show": true
+		},
+		"sammyt": {
+			"name": "sammyt",
+			"address": "0x579120fAddE647cf107cf68003B04F0beE205876",
+			"show": false
+		}
+	}
+}
